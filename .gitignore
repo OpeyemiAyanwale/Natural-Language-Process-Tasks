@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environment
+env/
+venv/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Mac and Windows
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+*.out
+*.err
+
+# Data and models (that you want to track only with LFS or not at all)
+Data/*.csv
+Data/*.json
+Data/*.npy
+Data/*.model
+Data/*.pkl
+
+# But allow versioning of small/important files
+!Data/seed_words.json
+!Data/utils.py
+
+# Excel temp files
+~$*.xlsx
+
+# LFS pointer files already tracked
+.gitattributes
+
+# Jupyter Notebook output cells (optional, if you strip outputs)
+**/*.nbconvert.ipynb
