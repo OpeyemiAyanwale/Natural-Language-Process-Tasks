@@ -1,3 +1,5 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
 Data/arXiv_test_with_predictions.csv filter=lfs diff=lfs merge=lfs -text
 Data/arxiv_test.csv filter=lfs diff=lfs merge=lfs -text
 Data/doc2vec_model.model.syn1neg.npy filter=lfs diff=lfs merge=lfs -text
